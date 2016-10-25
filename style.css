@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+video{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.small {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 600vh;
+  z-index: 4;
+  background-color: rgba(255,255,255,0.6);
+}
+.large {
+  width: 100%;
+  height: 200vh;
+  position: absolute;
+  top: 600vh;
+  z-index: 2;
+}
+
+.projects {
+  height: auto;
+  position: absolute;
+  top: 400vh;
+}
+
+.down {
+  position: absolute;
+  top: 80vh;
+  z-index: 5;
+  left: 45%;
+  visibility: block;
+}
+
+#angular {
+  position: absolute;
+  top: 13px;
+  left: 12%;
+}
+
+#bootstrap {
+  position: absolute;
+  top: 13px;
+  left: 20%;
+}
+
+#heroku {
+  position: absolute;
+  top: 13px;
+  left: 31%
+}
+
+#illustrator {
+  position: absolute;
+  top: 13px;
+  left: 40%;
+}
+
+#materialize {
+  position: absolute;
+  top: 13px;
+  left: 46%;
+}
+
+#node {
+  position: absolute;
+  top: 13px;
+  left: 52%;
+}
+
+#photoshop {
+  position: absolute;
+  top: 13px;
+  left: 59%;
+}
+
+#postgresql {
+  position: absolute;
+  top: 13px;
+  left: 65%
+}
+
+#react {
+  position: absolute;
+  top: 13px;
+  left: 71%;
+}
+
+#expressjs {
+  position: absolute;
+  top: 13px;
+  left: 78%;
+}
+
+#css {
+  position: absolute;
+  top: 120px;
+  left: 5%;
+}
+
+#github {
+  position: absolute;
+  top: 130px;
+  left: 74%;
+}
+
+#html {
+  position: absolute;
+  top: 120px;
+  left: 18%;
+}
+
+#jquery {
+  position: absolute;
+  top: 120px;
+  left: 87%;
+}
+
+#js {
+  position: absolute;
+  top: 110px;
+  left: 32%;
+}
+
+#ruby {
+  position: absolute;
+  top: 155px;
+  left: 48%;
+}
+
+#rails {
+  position: absolute;
+  top: 130px;
+  left: 62%;
+}
+
+#beer-me {
+  max-width: 100%;
+  height: auto;
+  display: inline;
+}
+
+#assemblage {
+  max-width: 100%;
+  height: auto;
+}
+
+#music-lovers {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  position: relative;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.7);
+  left: 500px;
+  top: -250px;
+  font-size: 20px;
+  font-family: roboto, sans-serif;
+  padding: 10px;
+}
+
+.contact {
+  position: absolute;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 350vh;
+  left: 25%;
+  margin-bottom: 200px;
+  z-index: 7;
+}
+
+.bio {
+  position: absolute;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 200vh;
+  z-index: 5;
+  left: 15%;
+  font-family: roboto, sans-serif;
+  font-size: 25px;
+}
+
+#contact {
+  margin: 30px;
+}
+
+button {
+  padding: 3px;
+  color: black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}

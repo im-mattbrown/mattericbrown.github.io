@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <head>
-  <style>
-  img{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-top: 40px;
-  }
-  </style>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
-<img src="http://i.giphy.com/26ufpM4BakEdNIsLu.gif" alt=""/>
+  <video id="video" tabindex="0" autobuffer preload>
+    <source type="video/mp4" src="images/background.mp4"></source>
+
+  </video>
+  <div class="down">
+    <img src="images/down.png" alt="" />
+  </div>
+  <div class="bio">
+    Writer, teacher, photographer, dental assistant, commercial pilot, licensed chiropractor; these are a few of the things that I am not. I am a web developer and Sociology graduate living in the bay area. My time is spent learning new skills and improving as a developer, trying to be less terrible at chess, practicing yoga and enjoying the local craft beer scene. I love the web and think that it is the most important advancement of my generation. I have recently decided to take that passion and turn it into a career as a web developer.
+  </div>
+  <div class="small">
+    <img id="angular" src="images/small/angular.png" alt="angular logo" />
+    <img id="bootstrap" src="images/small/bootstrap.png" alt="bootstrap logo" />
+    <img id="heroku" src="images/small/heroku.png" alt="heroku logo" />
+    <img id="illustrator" src="images/small/illustrator.png" alt="illustrator logo" />
+    <img id="materialize" src="images/small/materialize.png" alt="materialize logo" />
+    <img id="node" src="images/small/node.png" alt="node logo" />
+    <img id="photoshop" src="images/small/photoshop.png" alt="photoshop logo" />
+    <img id="postgresql" src="images/small/postgresql.png" alt="postgresql logo" />
+    <img id="react" src="images/small/react.png" alt="react logo" />
+    <img id="expressjs" src="images/small/expressjs.png" alt="expressjs logo" />
+  </div>
+  <div class="large">
+    <img id="css" src="images/large/css.png" alt="css logo" />
+    <img id="github" src="images/large/github.png" alt="github logo" />
+    <img id="html" src="images/large/html.png" alt="html logo" />
+    <img id="jquery" src="images/large/jquery.png" alt="jquery logo" />
+    <img id="js" src="images/large/js.png" alt="js logo" />
+    <img id="ruby" src="images/large/ruby.png" alt="ruby logo" />
+    <img id="rails" src="images/large/rails.png" alt="rails logo" />
+  </div>
+  <div class="projects">
+    <div class="three">
+        <img id="music-lovers" src="images/laptops/music-lovers-laptop.png" alt="project one" />
+        <div class="description">
+          Built on the Rails stack, Music Lovers is an online dating platform for people seeking matches with compatible music tastes. Users can create a profile as well as login to an exsiting one. Features authentication and authorization on the backend for user matching algorithm.
+          <button class="link">
+            <a target="_blank" href="https://music-lovers-app.herokuapp.com">site</a>
+          </button>
+          <button class="link">
+            <a target="_blank" href="https://github.com/mattericbrown/music_lovers">github</a>
+          </button>
+        </div>
+    </div>
+    <div class="two">
+      <img id="assemblage" src="images/laptops/general-assemblage-laptop.png" alt="project one" />
+      <div class="description">
+        General Assemblage is a full stack rails app built with a group of three other colleagues. General Assemblage is a social networking tool for General Assembly students and graduates across all disciplines to connect and collaborate. My main responsibilty was working on the front end and UI design.
+        <button class="link">
+          <a target="_blank" href="https://general-assemblage.herokuapp.com">site</a>
+        </button>
+        <button class="link">
+          <a target="_blank" href="https://github.com/mattericbrown/general-assemblage">github</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="one">
+      <img id="beer-me" src="images/laptops/beer-me-laptop.png" alt="project one" />
+      <div class="description">
+        Beer.me is a craft beer mapping project for the San Francisco area. Developed with the MEAN stack, beer.me allows users to interact with a GoogleMaps API integration that displays information from a full CRUD database of craft beer destinations.
+        <button class="link">
+          <a target="_blank" href="https://github.com/mattericbrown/brewfinder">github</a>
+        </button>
+      </div>
+    </div>
+  <div>
+  <div class="contact">
+    <a target="_blank" href="http://www.github.com/mattericbrown"><img id="contact" src="images/icons/github.png" alt="github logo" /></a>
+    <a href="mailto:matt.eric.brown@gmail.com"><img id="contact" src="images/icons/email.png" alt="email logo" /></a>
+    <a target="_blank" href="https://www.linkedin.com/in/mattericbrown"><img id="contact" src="images/icons/linkedin.png" alt="linkedin logo" /></a>
+  </div>
 </body>
+</html>
