@@ -1,4 +1,4 @@
-$(window).on('load', function(){
+$(document).ready( function(){
     var vid = $('#video')[0];
 
     video.currentTime = 0;
@@ -12,9 +12,9 @@ $(window).on('load', function(){
         $('.down').css("display", "none");
       }
         if (event.originalEvent.wheelDelta < 0) {
-          if (video.currentTime < 4.0) {
+          if (video.currentTime < 5.5) {
             video.currentTime += Math.sqrt(window.pageYOffset)/2200;
-          } else if (video.currentTime > 4.0 && video.currentTime < 7.5) {
+          } else if (video.currentTime > 5.5 && video.currentTime < 7.5) {
             video.currentTime += Math.sqrt(window.pageYOffset)/3600;
           } else if (video.currentTime > 7.5 && video.currentTime < 11.5) {
             video.currentTime += Math.sqrt(window.pageYOffset)/5000;
