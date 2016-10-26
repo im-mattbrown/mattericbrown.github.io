@@ -39,13 +39,13 @@ $(document).ready( function(){
         }
           if (event.originalEvent.detail > 0) {
             if (video.currentTime < 5.5) {
-              video.currentTime += Math.sqrt(window.pageYOffset)/7000;
+              video.currentTime += Math.sqrt(window.pageYOffset)/2200;
             } else if (video.currentTime > 5.5 && video.currentTime < 7.5) {
-              video.currentTime += Math.sqrt(window.pageYOffset)/10000;
+              video.currentTime += Math.sqrt(window.pageYOffset)/3600;
             } else if (video.currentTime > 7.5 && video.currentTime < 11.5) {
-              video.currentTime += Math.sqrt(window.pageYOffset)/13000;
+              video.currentTime += Math.sqrt(window.pageYOffset)/5000;
             } else {
-              video.currentTime += Math.sqrt(window.pageYOffset)/16000;
+              video.currentTime += Math.sqrt(window.pageYOffset)/5000;
             }
           } else{
               video.currentTime-=step;
