@@ -2,160 +2,181 @@
   margin: 0;
   padding: 0;
 }
-video{
+
+@media only screen and (max-device-width: 751px) {
+  #video-large {
+    display: none;
+  }
+  .video {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  .contact {
+    width: 60%;
+  }
+
+}
+
+@media (min-width: 800px) {
+
+
+  #video{
   position: fixed;
   width: 100%;
   top: 0;
-}
-.small {
+  }
+  .small {
   width: 100%;
   height: 100px;
   position: absolute;
   top: 525vh;
   z-index: 4;
   background-color: rgba(255,255,255,0.6);
-}
-.large {
+  }
+  .large {
   width: 100%;
-  height: 50vh;
+  height: 10vh;
   position: absolute;
   top: 525vh;
   z-index: 2;
-}
+  }
 
-.projects {
+  .projects {
   height: auto;
   position: absolute;
   top: 290vh;
-}
+  }
 
-.down {
+  .down {
   position: fixed;
   top: 80vh;
   z-index: 5;
   left: 45%;
   visibility: block;
-}
+  }
 
-#angular {
+  #angular {
   position: absolute;
   top: 13px;
   left: 12%;
-}
+  }
 
-#bootstrap {
+  #bootstrap {
   position: absolute;
   top: 13px;
   left: 20%;
-}
+  }
 
-#heroku {
+  #heroku {
   position: absolute;
   top: 13px;
   left: 31%
-}
+  }
 
-#illustrator {
+  #illustrator {
   position: absolute;
   top: 13px;
   left: 40%;
-}
+  }
 
-#materialize {
+  #materialize {
   position: absolute;
   top: 13px;
   left: 46%;
-}
+  }
 
-#node {
+  #node {
   position: absolute;
   top: 13px;
   left: 52%;
-}
+  }
 
-#photoshop {
+  #photoshop {
   position: absolute;
   top: 13px;
   left: 59%;
-}
+  }
 
-#postgresql {
+  #postgresql {
   position: absolute;
   top: 13px;
   left: 65%
-}
+  }
 
-#react {
+  #react {
   position: absolute;
   top: 13px;
   left: 71%;
-}
+  }
 
-#expressjs {
+  #expressjs {
   position: absolute;
   top: 13px;
   left: 78%;
-}
+  }
 
-#css {
+  #css {
   position: absolute;
   top: 120px;
   left: 5%;
-}
+  }
 
-#github {
+  #github {
   position: absolute;
   top: 130px;
   left: 74%;
-}
+  }
 
-#html {
+  #html {
   position: absolute;
   top: 120px;
   left: 18%;
-}
+  }
 
-#jquery {
+  #jquery {
   position: absolute;
   top: 120px;
   left: 87%;
-}
+  }
 
-#js {
+  #js {
   position: absolute;
   top: 110px;
   left: 32%;
-}
+  }
 
-#ruby {
+  #ruby {
   position: absolute;
   top: 155px;
   left: 48%;
-}
+  }
 
-#rails {
+  #rails {
   position: absolute;
   top: 130px;
   left: 62%;
-}
+  }
 
-#beer-me {
+  #beer-me {
   max-width: 100%;
   height: auto;
   display: inline;
-}
+  }
 
-#assemblage {
+  #assemblage {
   max-width: 100%;
   height: auto;
-}
+  }
 
-#music-lovers {
+  #music-lovers {
   max-width: 100%;
   height: auto;
-}
+  }
 
-.description {
+  .description {
   position: relative;
   width: 60%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -164,9 +185,9 @@ video{
   font-size: 20px;
   font-family: roboto, sans-serif;
   padding: 10px;
-}
+  }
 
-.contact {
+  .contact {
   position: absolute;
   width: 50%;
   display: flex;
@@ -176,9 +197,9 @@ video{
   left: 25%;
   margin-bottom: 200px;
   z-index: 7;
-}
+  }
 
-.bio {
+  .bio {
   position: absolute;
   width: 70%;
   background-color: rgba(255, 255, 255, 0.7);
@@ -187,28 +208,30 @@ video{
   left: 15%;
   font-family: roboto, sans-serif;
   font-size: 25px;
-}
+  }
 
-#contact {
+  #contact {
   margin: 30px;
-}
+  }
 
-button {
+  button {
   padding: 3px;
   color: black;
   font-size: 15px;
   font-weight: bold;
-}
+  }
 
-a:link {
+  a:link {
   color: black;
   text-decoration: none;
-}
+  }
 
-a:visited {
+  a:visited {
   color: black;
-}
+  }
 
-a:hover {
+  a:hover {
   color: black;
+  }
+
 }
