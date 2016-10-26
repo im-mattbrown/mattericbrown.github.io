@@ -32,12 +32,11 @@ $(document).ready( function(){
         }
     });
       $(window).bind('DOMMouseScroll MozMousePixelScroll', function(event) {
-
-        console.log(event.originalEvent.detail);
         if (video.currentTime > 0.0 ) {
           $('.down').css("display", "none");
         }
           if (event.originalEvent.detail > 0) {
+            console.log(video.currentTime);
             if (video.currentTime < 5.5) {
               video.currentTime += Math.sqrt(window.pageYOffset)/2200;
             } else if (video.currentTime > 5.5 && video.currentTime < 7.5) {
