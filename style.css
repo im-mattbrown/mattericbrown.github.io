@@ -22,7 +22,9 @@
 
 @media (min-width: 800px) {
 
-
+  .video {
+    display: none;
+  }
   #video{
   position: fixed;
   width: 100%;
