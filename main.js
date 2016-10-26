@@ -51,7 +51,4 @@ $(document).ready( function(){
               console.log(video.currentTime);
           }
       });
-      $(window).scroll(function(event) {
-        console.log(event.originalEvent);
-      });
 });
