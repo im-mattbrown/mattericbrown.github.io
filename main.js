@@ -1,9 +1,9 @@
 console.log("javascript");
 
 $(document).ready( function(){
-    var vid = $('#video')[0];
+    var video = $('#video')[0];
 
-    vid.currentTime = 0;
+    video.currentTime = 0;
     var step = 0.02;
 
     var scroll = $(window).scrollTop(0);
@@ -31,7 +31,7 @@ $(document).ready( function(){
             console.log(video.currentTime);
         }
     });
-      $(window).bind('MozMousePixelScroll', function(event) {
+      $(window).bind('DOMMouseScroll MozMousePixelScroll', function(event) {
 
         console.log(event.originalEvent.detail);
         if (video.currentTime > 0.0 ) {
@@ -51,5 +51,8 @@ $(document).ready( function(){
               video.currentTime-=step;
               console.log(video.currentTime);
           }
+      });
+      $(window).scroll(function(event) {
+        console.log(event.originalEvent);
       });
 });
