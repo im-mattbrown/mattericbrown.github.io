@@ -68,11 +68,11 @@
   z-index: 5;
   left: 45%;
   visibility: block;
-  -webkit-animation: fadein 4.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4.5s; /* Firefox < 16 */
-        -ms-animation: fadein 4.5s; /* Internet Explorer */
-         -o-animation: fadein 4.5s; /* Opera < 12.1 */
-            animation: fadein 4.5s;
+  -webkit-animation: fadein 5.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5.5s; /* Firefox < 16 */
+        -ms-animation: fadein 5.5s; /* Internet Explorer */
+         -o-animation: fadein 5.5s; /* Opera < 12.1 */
+            animation: fadein 5.5s;
 }
 
 @keyframes fadein {
