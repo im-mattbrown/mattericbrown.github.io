@@ -4,21 +4,35 @@
 }
 
 @media only screen and (max-device-width: 799px) {
+
+  body {
+    position: absolute;
+    top: 20%;
+    background: url(images/card.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+  }
   #video-large {
     display: none;
   }
-  .video {
+  #video {
     display: none;
   }
-
   .card {
-    display: block;
-    z-index: 2;
+    width: auto;
+    position: absolute;
+    z-index: 33;
+  }
+  .projects {
+    position: absolute;
+    width: 75%;
   }
   .contact {
+    position: absolute;
+    padding-left: 15%;
     width: 60%;
   }
-
 }
 
 @media (min-width: 800px) {
