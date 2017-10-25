@@ -44,11 +44,6 @@
   position: fixed;
   width: 100%;
   top: 0;
-  -webkit-animation: fadein 3.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3.5s; /* Firefox < 16 */
-        -ms-animation: fadein 3.5s; /* Internet Explorer */
-         -o-animation: fadein 3.5s; /* Opera < 12.1 */
-            animation: fadein 3.5s;
   }
   .small {
   width: 100%;
@@ -82,10 +77,10 @@
   z-index: 5;
   left: 45%;
   visibility: block;
-  -webkit-animation: fadein 5.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 5.5s; /* Firefox < 16 */
-        -ms-animation: fadein 5.5s; /* Internet Explorer */
-         -o-animation: fadein 5.5s; /* Opera < 12.1 */
+  -webkit-animation: fadein 5.5s;
+       -moz-animation: fadein 5.5s;
+        -ms-animation: fadein 5.5s;
+         -o-animation: fadein 5.5s;
             animation: fadein 5.5s;
 }
 
